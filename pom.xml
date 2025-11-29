@@ -61,6 +61,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>cicd_github_action</finalName>
 	</build>
 
 </project>
