@@ -6,6 +6,8 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
+
+
 name: Project CICD Flow
 
 on:
@@ -13,6 +15,11 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
 
 jobs:
   build:
